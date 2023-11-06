@@ -5,7 +5,7 @@ const router = express.Router();
 router.get("/", (req, res, next) => res.render("index"));
 
 
-// const droneRouter = require("./drones.js")
-// router.use("/", droneRouter)
+//  const droneRouter = require("./drones.js")
+//  router.use("/", droneRouter)
 
 module.exports = router;
